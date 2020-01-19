@@ -43,7 +43,7 @@ $factor2 = (int)$_POST['factor2'];
 $operation =$_POST['operation'];
 $result =(int)$_POST['result'];
 
-$sql = "INSERT INTO `multiplication`(`factor1`, `factor2`, `operation`, `result`) VALUES ($factor1, $factor2, '$operation', $result);";
+$sql = "INSERT INTO `multyply`( `factor1`, `factor2`, `operation`, `result`) VALUES ($factor1, $factor2, '$operation', $result);";
 $res = mysqli_query($conn, $sql); 
 
 if($res){

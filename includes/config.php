@@ -3,7 +3,7 @@
 $dbServername = "localhost";
 $dbUsername = "root";
 $dbPassword = "";
-$dbName = "function";
+$dbName = "calculator";
 
 $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 
