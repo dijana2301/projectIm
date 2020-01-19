@@ -1,0 +1,81 @@
+html,body {
+    height: auto;
+}
+
+header {
+    height: 110px;
+    background-color: lightseagreen;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 30px;
+}
+
+footer {
+    background-color: lightgray;
+    background-repeat: repeat;
+    height: 50px;
+    bottom: 0px;
+    font-size: 28px;
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td {
+    background-color: lightsteelblue;
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  
+th{
+    background-color: silver;
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+  }
+
+.pozadina {
+    background-image: url(../images/background.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face{
+    font-family:mojfont;
+    src: url(../Font/Sweet\ Hipster.ttf)
+}
+
+article{
+    font-family: mojfont;
+}
+
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px lightsteelblue;
+	background:linear-gradient(to bottom, lightsteelblue 5%, lightsteelblue 100%);
+	background-color:lightsteelblue;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px lightsteelblue;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, lightsteelblue 5%,lightsteelblue 100%);
+	background-color:lightsteelblue;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
